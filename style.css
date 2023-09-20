@@ -1,0 +1,91 @@
+body {
+  background-color: #a3c2c2;
+  text-align: left;
+  color: #5c3aa5;
+  font-family: "Quicksand", sans-serif;
+  margin: 1rem auto;
+  font-size: 1.1rem;
+  max-width: 78rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 8rem;
+  font-family: Copperplate;
+  font-weight: 100;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 3.2rem;
+  font-family: Copperplate;
+  font-weight: 50;
+}
+h3 {
+  text-align: left;
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+  font-family: Copperplate;
+  font-weight: 30;
+}
+
+/*Custom Cursor Images https://codepen.io/fmressel/pen/djwvJVLinks to an external site.  Search for Unicode using https://emojipedia.org/Links to an external site.  and replace characters before .png*/
+
+/*Rainbow*/
+.sun {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f506.png) 36 36, auto;
+}
+.wave {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f30a.png) 36 36, auto;
+}
+.rocket {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f680.png) 36 36, auto;
+}
+.pumpkin {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f383.png) 36 36, auto;
+}
+
+section {
+  display: flex;
+}
+.tooltiptext {
+  visibility: hidden;
+}
+.swim:hover .tooltiptext {
+  visibility: visible;
+}
+.space:hover .tooltiptext {
+  visibility: visible;
+}
+.ppumpkin:hover .tooltiptext {
+  visibility: visible;
+}
+button {
+  background-color: #ff52dd;; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
+figure{
+  display: flex;
+  align-self: flex-start;
+  position: sticky;
+  top: 3em;
+}
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #5c3aa5;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  left: -21%;
